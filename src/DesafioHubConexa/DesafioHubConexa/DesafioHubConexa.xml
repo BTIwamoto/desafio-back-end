@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioHubConexa</name>
+    </assembly>
+    <members>
+        <member name="M:DesafioHubConexa.Controllers.RecomendacaoPlaylistController.ObterRecomendacaoPlaylistPorCidade(System.String)">
+            <summary>
+            Recomenda uma playlist de acordo com a temperatura da cidade, a partir do nome da cidade
+            </summary>
+            <param name="nomeCidade">Ex: Goiânia</param>
+            <returns>Recomendação da Playlist de acordo com a temperatura da cidade</returns>
+            <returns>400 -> Retorna o erro que ocorreu no sistema. Ex.: O nome da cidade deve ser preenchido</returns>
+            <returns>404 -> Cidade não encontrada</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:DesafioHubConexa.Controllers.RecomendacaoPlaylistController.ObterRecomendacaoPlaylistPorLatitudeELongitude(System.String,System.String)">
+            <summary>
+            Recomenda uma playlist de acordo com a temperatura da cidade, a partir da latitude e longitude
+            </summary>
+            <param name="latitude">Ex.: -16.6799</param>
+            <param name="longitude">Ex.: -49.255</param>
+            <returns>Recomendação da Playlist de acordo com a temperatura da cidade</returns>
+        </member>
+    </members>
+</doc>
